@@ -5,3 +5,12 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  background-color: #05445E;
+  color: #D4F1F4;
+}
