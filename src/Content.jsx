@@ -5,16 +5,16 @@ import { Modal } from "./Modal";
 
 export function Content() {
   const [isResumeShowVisible, setIsResumeShowVisible] = useState(false);
-  const [currentResume, setCurrentResume] = useState({});
+  const [resume, setCurrentResume] = useState({});
 
   const handleShowResume = (resume) => {
     console.log("handleShowResume", resume);
-    setIsPhotosShowVisible(true);
-    setCurrentPhoto(resume);
+    setIsResumeShowVisible(true);
+    setCurrentResume(resume);
   };
   const handleClose = () => {
     console.log("handleClose");
-    setIsPhotosShowVisible(false);
+    setIsResumeShowVisible(false);
   };
 
   useEffect(handleShowResume, []);
