@@ -5,7 +5,7 @@ import { Modal } from "./Modal";
 
 export function Content() {
   const [isResumeShowVisible, setIsResumeShowVisible] = useState(false);
-  const [resume, setCurrentResume] = useState({});
+  const [currentResume, setCurrentResume] = useState({});
 
   const handleShowResume = (resume) => {
     console.log("handleShowResume", resume);
