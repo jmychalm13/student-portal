@@ -39,10 +39,10 @@ export function Login() {
             ))}
           </ul>
           <form onSubmit={handleSubmit}>
-            <div className="p-3">
+            <div className="pr-3 pb-3">
               Email: <input name="email" type="email" className="rounded" />
             </div>
-            <div className="pb-3 pl-3 pr-3">
+            <div className="pb-3 pr-3">
               Password: <input name="password" type="password" className="rounded" />
             </div>
             <div className="flex flex-col items-center">
