@@ -16,7 +16,7 @@ nav {
 }
 
 #login {
-  background-color: #D4F1F4;
+  background: url(./assets/background.svg);
 }
 
 .login-container {

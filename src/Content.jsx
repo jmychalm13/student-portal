@@ -22,7 +22,7 @@ export function Content() {
   return (
     <div>
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
       </Routes>
       <Modal show={isResumeShowVisible} onClose={handleClose}>
         <h1>Test</h1>
