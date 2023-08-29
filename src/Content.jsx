@@ -4,8 +4,8 @@ import { Login } from "./Login";
 import { Modal } from "./Modal";
 
 export function Content() {
-  const [isPhotosShowVisible, setIsPhotosShowVisible] = useState(false);
-  const [currentPhoto, setCurrentPhoto] = useState({});
+  const [isResumeShowVisible, setIsResumeShowVisible] = useState(false);
+  const [currentResume, setCurrentResume] = useState({});
 
   const handleShowResume = (resume) => {
     console.log("handleShowResume", resume);
@@ -24,7 +24,7 @@ export function Content() {
       <Routes>
         <Route path="/login" element={<Login />} />
       </Routes>
-      <Modal show={isPhotosShowVisible} onClose={handleClose}>
+      <Modal show={isResumeShowVisible} onClose={handleClose}>
         <h1>Test</h1>
       </Modal>
     </div>
