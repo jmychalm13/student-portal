@@ -14,3 +14,18 @@ nav {
   background-color: #05445E;
   color: #D4F1F4;
 }
+
+#login {
+  background-color: #D4F1F4;
+}
+
+.login-container {
+  background-color: #05445E;
+  color: #D4F1F4;
+}
+
+.btn {
+  background-color: #05445E;
+  color: #D4F1F4;
+  border: 1px solid #D4F1F4;
+}
