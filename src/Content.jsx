@@ -9,12 +9,12 @@ export function Content() {
 
   const handleShowResume = (resume) => {
     console.log("handleShowResume", resume);
-    setIsPhotosShowVisible(true);
-    setCurrentPhoto(resume);
+    setIsResumeShowVisible(true);
+    setCurrentResume(resume);
   };
   const handleClose = () => {
     console.log("handleClose");
-    setIsPhotosShowVisible(false);
+    setIsResumeShowVisible(false);
   };
 
   useEffect(handleShowResume, []);
