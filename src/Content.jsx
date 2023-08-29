@@ -5,7 +5,7 @@ export function Content() {
   return (
     <div>
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
       </Routes>
     </div>
   );
