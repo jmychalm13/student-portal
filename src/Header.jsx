@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Header() {
   return (
     <header>
@@ -18,7 +20,7 @@ export function Header() {
             />
           </svg>
           <div className="pl-4 links">
-            <a href="#">Login</a> | <a href="#">View</a> | <a href="#">Update</a>
+            <Link to="/Login">Login</Link> | <a href="#">View</a> | <a href="#">Update</a>
           </div>
         </div>
       </nav>
