@@ -18,7 +18,7 @@ export function Content() {
     linkedin_url: "test@linkedin.com",
     twitter_handle: "@brenda_smith",
     personal_url: "personal_site@test.com",
-    student_url: "student@test.com",
+    resume_url: "student@test.com",
     github_url: "brenda@github.com",
     photo: "photo.image.url",
   });
