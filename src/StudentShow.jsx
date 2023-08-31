@@ -2,7 +2,7 @@ export function StudentShow(props) {
   console.log(props);
   return (
     <div className="w-screen flex items-center justify-center">
-      <div className="card h-1/2 w-1/2 container px-5 py-2">
+      <div className="info-container border mt-5 rounded-xl border-black card h-1/2 w-1/2 container px-5 py-2">
         <h1 className="text-center font-bold">Student information</h1>
         <p>
           <span className="font-bold">First Name:</span> {props.student.first_name}
