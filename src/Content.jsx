@@ -34,7 +34,7 @@ export function Content() {
   };
 
   return (
-    <div className="main">
+    <div>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/student" element={<StudentShow student={currentStudent} />} />
