@@ -28,6 +28,7 @@ export function Content() {
     setIsStudentShowVisible(true);
     setCurrentStudent(student);
   };
+
   const handleClose = () => {
     console.log("handleClose");
     setIsStudentShowVisible(false);
