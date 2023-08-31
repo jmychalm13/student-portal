@@ -32,7 +32,7 @@ export function Login() {
     <div id="login" className="container w-screen grid h-screen place-items-center">
       <div className="rounded-xl h-1/3 w-3/6 login-container grid place-items-center">
         <div className="container pl-4">
-          <h1 className="pb-3 text-center">Login</h1>
+          <h1 className="pb-3 text-center text-xl">Login</h1>
           <ul>
             {errors.map((error) => (
               <li key={error}>{error}</li>
