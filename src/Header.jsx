@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function Header() {
   return (
     <header>
-      <nav className="p-2 flex items-center justify-between flex-wrap">
+      <nav className="p-2 flex items-center justify-between flex-wrap text-xl">
         <div className="flex justify-between">
           <svg
             xmlns="http://www.w3.org/2000/svg"
