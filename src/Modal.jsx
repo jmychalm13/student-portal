@@ -31,8 +31,11 @@ export function Modal(props) {
             Github: <input defaultValue={props.student.github_url} name="github_url" type="text" />
           </div>
           <div>
-            First Name: <input defaultValue={props.student.photo} name="photo" type="text" />
+            Photo: <input defaultValue={props.student.photo} name="photo" type="text" />
           </div>
+          <button type="submit" className="btn border mt-2 rounded px-3 py-px">
+            Update
+          </button>
         </form>
       </section>
     </div>
