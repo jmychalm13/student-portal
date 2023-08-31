@@ -5,9 +5,6 @@ import { Modal } from "./Modal";
 import { StudentShow } from "./StudentShow";
 
 export function Content() {
-  const [isStudentShowVisible, setIsStudentShowVisible] = useState(false);
-  // const [currentstudent, setCurrentstudent] = useState({});
-
   const [currentStudent, setCurrentStudent] = useState({
     first_name: "Brenda",
     last_name: "Smith",
@@ -23,26 +20,13 @@ export function Content() {
     photo: "photo.image.url",
   });
 
-  const handleShowStudent = (student) => {
-    console.log("handleShowStudent", student);
-    setIsStudentShowVisible(true);
-    setCurrentStudent(student);
-  };
-
-  const handleClose = () => {
-    console.log("handleClose");
-    setIsStudentShowVisible(false);
-  };
-
   return (
     <div>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/student" element={<StudentShow student={currentStudent} />} />
+        <Route path="/student-update" element={<Modal student={currentStudent} />} />
       </Routes>
-      <Modal show={isStudentShowVisible} onClose={handleClose}>
-        <h1>Test</h1>
-      </Modal>
     </div>
   );
 }

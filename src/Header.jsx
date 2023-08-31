@@ -20,7 +20,7 @@ export function Header() {
             />
           </svg>
           <div className="pl-4 links">
-            <Link to="/">Login</Link> | <Link to="/student">View</Link> | <a href="#">Update</a>
+            <Link to="/">Login</Link> | <Link to="/student">View</Link> | <Link to="/student-update">Update</Link>
           </div>
         </div>
       </nav>
